@@ -7,6 +7,9 @@ import {
 } from 'react-icons/ai'
 import Image from 'next/image'
 import deved from '../public/dev-ed-wave.png'
+import design from '../public/design.png'
+import code from '../public/code.png'
+import consulting from '../public/consulting.png'
 
 export default function Home() {
   return (
@@ -66,8 +69,29 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              esse vel voluptate fugiat, quae aperiam.
+              esse vel voluptate fugiat, quae aperiam.{' '}
+              <span className='text-teal-500'>agencies</span> Lorem, ipsum dolor
+              sit amet consectetur adipisicing elit. Repudiandae, distinctio!{' '}
+              <span className='text-teal-500'>start ups</span> Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Voluptates voluptas
+              iste, non eos accusamus dolore.
             </p>
+            <p lassName='text-md py-2 leading-8 text-gray-800'>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Explicabo tenetur debitis perspiciatis neque enim velit ipsum
+              aliquam, quidem totam iste.
+            </p>
+          </div>
+          <div>
+            <div>
+              <Image src={design} alt='desing' width={100} height={100} />
+              <h3>Beautiful Designs</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                debitis dolorem rem perferendis deserunt labore, voluptatem
+                consequatur ea sit aut!
+              </p>
+            </div>
           </div>
         </section>
       </main>
